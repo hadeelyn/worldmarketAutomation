@@ -1,21 +1,21 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Main Flow" >
+<suite name="Main Flow" parallel="tests" >
 <test name="flow1">
-    <classes>
-
-    </classes>
+        <classes>
+            <class name="WindowSize"></class>
+            <class name="HomePageTest"></class>
+        </classes>
 </test>
 <test name="flow2">
     <classes>
-
+        <class name="ProductDetailedPageTest"></class>
     </classes>
 </test>
-<test name="flow3">
-    <classes>
-
-    </classes>
-</test>
-
+    <test name="flow3">
+        <classes>
+            <class name="FilterProductTest"></class>
+        </classes>
+    </test>
 </suite>
