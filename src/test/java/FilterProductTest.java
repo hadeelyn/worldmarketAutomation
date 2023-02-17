@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -12,7 +13,8 @@ public class FilterProductTest {
     @BeforeClass
     public void setUp(){
         driver=  baseTest.setUp("https://www.worldmarket.com/category/kitchen/new.do?ab=home:51:d:2:fresh-kitchen");
-
+        Dimension iphonexr= new Dimension(414,896);
+        driver.manage().window().setSize(iphonexr);
     }
     @Test
     public void filter() {
@@ -30,9 +32,6 @@ public class FilterProductTest {
         driver.findElement(By.cssSelector("#productType_1 > .ml-label")).isDisplayed();
         driver.findElement(By.cssSelector("#productType_0 > .ml-label")).isDisplayed();
     }
-    @AfterClass
-    public void tearDown(){
-        baseTest.tearDown();
-    }
+
 
 }

@@ -1,11 +1,10 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Main Flow" parallel="tests" >
-<test name="flow1">
+<suite name="Main Flow" >
+<test name="flow1" parallel="tests">
         <classes>
-            <class name="WindowSize"></class>
-            <class name="HomePageTest"></class>
+
+             <class name="HomePageTest"></class>
         </classes>
 </test>
 <test name="flow2">
@@ -15,7 +14,7 @@
 </test>
     <test name="flow3">
         <classes>
-            <class name="FilterProductTest"></class>
+             <class name="FilterProductTest"></class>
         </classes>
     </test>
 </suite>

@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b2a501-3989-4adf-b162-80a35eb54013" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FilterProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductDetailedPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WindowSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/path.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WindowSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WindowSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +62,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/ideaProj/worldmarketAutomation/testng.xml">
+  <component name="RunManager" selected="TestNG.FilterProductTest">
     <configuration name="worldmarketAutomation" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -102,6 +96,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilterProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwalautom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilterProductTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jawwalautom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductDetailedPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="jawwalautom" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,37 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductDetailedPageTest.mmm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jawwalautom" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductDetailedPageTest" />
-      <option name="METHOD_NAME" value="mmm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductDetailedPageTest.verifyThatUserCanGoToCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="jawwalautom" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductDetailedPageTest" />
-      <option name="METHOD_NAME" value="verifyThatUserCanGoToCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FilterProductTest" />
+        <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.C:/ideaProj/worldmarketAutomation/testng.xml" />
         <item itemvalue="TestNG.ProductDetailedPageTest" />
         <item itemvalue="TestNG.ProductDetailedPageTest.VerifyProductPageWorkingPropaplay" />
-        <item itemvalue="TestNG.ProductDetailedPageTest.mmm" />
-        <item itemvalue="TestNG.ProductDetailedPageTest.verifyThatUserCanGoToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676463013346</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test">
+      <created>1676653994576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676653994576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

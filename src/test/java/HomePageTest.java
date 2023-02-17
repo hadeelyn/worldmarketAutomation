@@ -18,6 +18,7 @@ public class HomePageTest {
     public void setUp(){
         driver=  baseTest.setUp("https://www.worldmarket.com/");
 
+
     }
 
     @Test(priority = 1)
