@@ -44,8 +44,8 @@ public class HomePageTest {
 
     }
     @Test(priority = 4)
-    public void verifyThatfooterIsDisplayedSuccessfully() {
-        WebElement img = driver.findElement(By.xpath("//*[@id='mainForm']/div[5]/div[1]/div[2]"));
+    public void verifyThatlogoIsDisplayedSuccessfully() {
+        WebElement img = driver.findElement(By.xpath("//*[@id='ml-body-container']/header/div[1]/div[6]/div/div/div/div[2]/div[2]/div/a/picture/img"));
         assertTrue(img.isDisplayed());
 
     }
